@@ -17,10 +17,10 @@ print("a=",a,"b=",b)
 
 #check number is odd or even
 
-n=input("hi please enter number",)
+n=int(input("hi please enter number"))  
 
 if (n%2==0):
-    
+
     print(n,"=given number is even number")
 else:
     print(n,"=given number is odd number")    
